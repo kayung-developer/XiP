@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test:monitor:1.3.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/transforms-2/files-2.1/b45ae1efc90a9c52d9dafdce39963f44/monitor-1.3.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/transforms-2/files-2.1/b45ae1efc90a9c52d9dafdce39963f44/monitor-1.3.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/modules-2/files-2.1/androidx.test/monitor/1.3.0/3a80466a460e22ec785a9c0ad1a1cbaf6a08c0ee/monitor-1.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/modules-2/files-2.1/androidx.test/monitor/1.3.0/42fd8fe34ba94b2e75f5df0b3184887af6f98670/monitor-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

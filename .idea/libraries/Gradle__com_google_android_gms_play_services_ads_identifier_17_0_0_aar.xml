@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-ads-identifier:17.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/transforms-2/files-2.1/a93e4f21bd95b6db0f5632eba276de8f/jetified-play-services-ads-identifier-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/transforms-2/files-2.1/a93e4f21bd95b6db0f5632eba276de8f/jetified-play-services-ads-identifier-17.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

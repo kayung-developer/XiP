@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/lr_cbCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lr_ivFileIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:focusable="false" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/lr_ivFileIcon"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/lr_cbCheck"
+            android:src="@drawable/_file_foreground"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/lr_tvFileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/blue_dark"
+            android:layout_toEndOf="@+id/lr_ivFileIcon"
+            android:text="TextView"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/lr_tvdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lr_tvFileName"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/blue_dark"
+            android:layout_toEndOf="@+id/lr_ivFileIcon"
+            android:text="TextView"
+            android:focusable="false"
+            android:clickable="false" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SlashActivity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/_file_white_foreground" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/progress"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50sp"
+        android:text="XP v1.0"
+        android:textAppearance="@style/MaterialAlertDialog.MaterialComponents.Title.Icon"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="top|center"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="20"
+        android:layout_marginBottom="35dp"
+        android:progressDrawable="@drawable/custom_progressbar_drawable"
+        android:secondaryProgress="20" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+</RelativeLayout>
+
+

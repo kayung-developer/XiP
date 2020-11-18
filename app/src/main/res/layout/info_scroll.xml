@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginBottom="1dp">
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+       <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="30sp"
+            app:layout_anchorGravity="center">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="@string/author"
+                android:textColor="@color/gray"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:typeface="monospace" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:typeface="monospace" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                 android:textColor="@color/gray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/_resolution"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0sp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="140sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/gray"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Resolution"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/details"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0sp"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="140sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/gray"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="100dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/gray"
+                android:textSize="18sp"
+                android:text="Duration"
+                android:textStyle="bold" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="150dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/gray"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/_size"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="25dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/gray"
+                android:textSize="18sp"
+                android:text="Size"
+                android:textStyle="bold" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="25dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/gray"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+
+        </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.core.widget.NestedScrollView>

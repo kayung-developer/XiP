@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "179792222867",
+    "firebase_url": "https://xplayer-42571.firebaseio.com",
+    "project_id": "xplayer-42571",
+    "storage_bucket": "xplayer-42571.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179792222867:android:76fe2d58f1d3904c7e8b66",
+        "android_client_info": {
+          "package_name": "com.app.vidplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179792222867-opknh9297cj2klch901un1mmnraakh2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFW4zwBUJ9pZiog38tsRUc3dqorg_zsfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179792222867-opknh9297cj2klch901un1mmnraakh2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

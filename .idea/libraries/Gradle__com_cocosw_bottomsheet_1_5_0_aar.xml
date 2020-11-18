@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.cocosw:bottomsheet:1.5.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/transforms-2/files-2.1/ab750c224950c0d87ea9046eb4849701/jetified-bottomsheet-1.5.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/transforms-2/files-2.1/ab750c224950c0d87ea9046eb4849701/jetified-bottomsheet-1.5.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/modules-2/files-2.1/com.cocosw/bottomsheet/1.5.0/9014c38fab98d5e6bff55d519ef39eafa313d114/bottomsheet-1.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-6.6-all/dm6whvs5m6hlkbnc6ae2jubui/gradle-6.6/caches/modules-2/files-2.1/com.cocosw/bottomsheet/1.5.0/7d2e690fda7a89577a0760346cb7a1d769b6ec0b/bottomsheet-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

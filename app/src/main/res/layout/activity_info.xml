@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5sp"
+    android:layout_marginStart="5sp"
+    android:layout_marginEnd="5sp"
+    android:layout_marginBottom="5sp"
+    tools:context=".activity.InfoActivity">
+       <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_centerInParent="true"
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+            android:layout_marginBottom="44dp"
+            android:text="@string/vidplayer_v1_0"
+             android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="100sp"
+        android:layout_height="90sp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/_file_foreground"
+        tools:ignore="VectorDrawableCompat" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/touch_raise"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="100sp"
+        android:text="@string/about"
+        android:textColor="@color/gray"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="30sp"
+          android:text="@string/developer_by_pascal"  />
+
+       <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/apper_inc_copyright_2020"  />
+
+
+</RelativeLayout>

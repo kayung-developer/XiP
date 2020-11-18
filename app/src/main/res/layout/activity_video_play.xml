@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative"
+    android:background="#000000"
+    tools:context=".video.VideoPlayActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        >
+    </SurfaceView>
+    <VideoView
+            android:id="@+id/videoview"
+            android:layout_width="match_parent"
+            android:layout_height="500sp"
+            android:soundEffectsEnabled="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent">
+        </VideoView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/id_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20sp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/lock"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginEnd="20sp"
+        android:src="@drawable/unlocked_foreground"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoview"
+        app:layout_constraintBottom_toTopOf="@+id/videoview"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/repeat"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginEnd="20sp"
+        android:src="@drawable/rpt_foreground"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lock"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/shuffle"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginEnd="20sp"
+        android:src="@drawable/shffle_foreground"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repeat"/>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="55sp"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_goneMarginTop="@dimen/touch_raise"
+            >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/prev"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:src="@drawable/prev_video_foreground" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/pause"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/play_video_foreground" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/next"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:src="@drawable/next_video_foreground" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/backward"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:src="@drawable/back_foreground" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/forward"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:src="@drawable/fwd_foreground" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/showProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/buttons"
+        app:layout_constraintTop_toTopOf="@+id/buttons"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginBottom="0dp"
+            android:text="00:00"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seekbar"
+            style="@style/Base.Widget.AppCompat.SeekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:theme="@style/SeekBar"
+            android:layout_gravity="top"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="4dp"
+            android:text="00:00"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

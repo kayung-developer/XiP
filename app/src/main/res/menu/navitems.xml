@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/video"
+        android:icon="@drawable/_file_foreground"
+        android:title="FILES" />
+    <item android:id="@+id/audio"
+        android:icon="@drawable/music_foreground"
+        android:title="AUDIOS"/>
+     <item android:id="@+id/share"
+        android:icon="@drawable/share_foreground"
+        android:title="SHARE APP"/>
+
+</menu>

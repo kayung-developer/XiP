@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">XP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="nav_home">VIDEOS</string>
+    <string name="share">SHARE APP</string>
+    <string name="audio">AUDIOS</string>
+    <string name="site">www.xplayer.com</string>
+    <string name="exit">Quit </string>
+    <string name="xplayer">XP</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="sendto">SEND</string>
+    <string name="playall">Details</string>
+    <string name="delete">Delete</string>
+
+    <string name="prefs_theme_key">theme</string>
+
+    <string name="email">email@email.com</string>
+    <string name="mail">Email Us</string>
+    <string name="vidplayer_v1_0">XP</string>
+    <string name="about">XP v1.0 is a simple light designed video player, file opener and audio player app for playing all supported videos and audios of different formats</string>
+    <string name="developer_by_pascal">Developed by Pascal</string>
+    <string name="apper_inc_copyright_2020">Apper Inc. Copyright 2020.</string>
+
+
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-5814695100491157/9259588989</string>
+    <string name="theme">Theme</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="author">Folder</string>
+    <string name="license">
+
+<b>
+     Copyright 2020 Pascal Saviour
+</b>
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.</string>
+</resources>
