@@ -94,6 +94,11 @@ public class VideoPlayActivity extends AppCompatActivity {
         setContentView(R.layout.activity_video_play);
         callStateListener();
        mNotifyManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        Swipper swipper = new Swipper();
+        swipper.Brightness(Swipper.Orientation.CIRCULAR);
+        swipper.Volume(Swipper.Orientation.VERTICAL);
+        swipper.Seek(Swipper.Orientation.HORIZONTAL, videoView);
+        swipper.set(this);
 
         //Listen for new Audio to play -- BroadcastReceiver
          if (checkPermission()) {
@@ -283,7 +288,7 @@ public class VideoPlayActivity extends AppCompatActivity {
             public void onPrepared(MediaPlayer mp) {
                 setVideoProgress();
                 mp.setScreenOnWhilePlaying(true);
-
+                VideoNotify();
 
             }
         });
@@ -295,6 +300,7 @@ public class VideoPlayActivity extends AppCompatActivity {
         storage = new StorageUtils(getApplicationContext());
         storage.storeAudio(videoArrayList);
         storage.storeVideoIndex(video_index);
+
         prevVideo();
         nextVideo();
         setPause();
@@ -325,9 +331,10 @@ public class VideoPlayActivity extends AppCompatActivity {
             videoView.setVideoURI(videoArrayList.get(pos).getVideoUri());
             id_title.setText(videoArrayList.get(pos).videoTitle);
             videoView.start();
-            VideoNotify();
+
             pause.setImageResource(R.drawable.play_video_foreground);
             video_index=pos;
+            VideoNotify();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -602,10 +609,8 @@ new StorageUtils(getApplicationContext()).clearCachedVideoPlaylist();
                 .setSmallIcon(R.drawable._file_foreground)
                 .setContentTitle("XP")
                 .setContentText("Xperience the best @ XP")
-                .setSound((Uri) Uri.CREATOR)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-                .setContentIntent(notificationPendingIntent)
-                .setPriority(NotificationCompat.PRIORITY_HIGH)
+                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .addAction(R.drawable._file_foreground, "open", notificationPendingIntent);
 
         Notification myNotification = notifyBuilder.build();

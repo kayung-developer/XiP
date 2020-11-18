@@ -55,7 +55,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/VidPlayer" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1hgqYI6DwvFseRN4oSV5sfjs4EL" />
@@ -265,10 +265,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="474" y="233" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1605307400376" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605719202639">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605738586819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605719202639" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605738586819" />
     <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1603302985002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -301,22 +301,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="541" y="258" width="284" height="279" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1604947540141" />
-    <state width="1225" height="120" key="GridCell.Tab.0.bottom" timestamp="1605730502796">
+    <state width="1225" height="120" key="GridCell.Tab.0.bottom" timestamp="1605740857898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1225" height="120" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605730502796" />
-    <state width="1225" height="120" key="GridCell.Tab.0.center" timestamp="1605730502795">
+    <state width="1225" height="120" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605740857898" />
+    <state width="1225" height="120" key="GridCell.Tab.0.center" timestamp="1605740857898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1225" height="120" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605730502795" />
-    <state width="1225" height="120" key="GridCell.Tab.0.left" timestamp="1605730502795">
+    <state width="1225" height="120" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605740857898" />
+    <state width="1225" height="120" key="GridCell.Tab.0.left" timestamp="1605740857897">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1225" height="120" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605730502795" />
-    <state width="1225" height="120" key="GridCell.Tab.0.right" timestamp="1605730502796">
+    <state width="1225" height="120" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605740857897" />
+    <state width="1225" height="120" key="GridCell.Tab.0.right" timestamp="1605740857898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1225" height="120" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605730502796" />
+    <state width="1225" height="120" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605740857898" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1605653048595">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

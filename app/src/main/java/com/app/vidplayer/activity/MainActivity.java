@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.vidplayer.R;
+import com.app.vidplayer.swiper.Swipper;
 import com.app.vidplayer.utils.StorageUtils;
 import com.app.vidplayer.video.RecycleItemTouchHelper;
 import com.app.vidplayer.audio.AudioActivity;
@@ -111,7 +112,6 @@ String[] name = new String[]{MediaStore.Video.VideoColumns.DISPLAY_NAME};
     setContentView(R.layout.activity_main);
           swipe = (SwipeRefreshLayout) findViewById(R.id.swipe);
          coordinate = (CoordinatorLayout) findViewById(R.id.coordinate);
-        switch_theme = (SwitchCompat) findViewById(R.id.switch_theme);
         constraint = (ConstraintLayout) findViewById(R.id.constraint);
 
          swipe.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -155,7 +155,6 @@ String[] name = new String[]{MediaStore.Video.VideoColumns.DISPLAY_NAME};
          navigationView.setNavigationItemSelectedListener(this);
         if (prefManager.isFirstTimeLaunch()) {
             prefManager.setFirstTimeLaunch(false);
-             finish();
 
         }
 
@@ -454,24 +453,15 @@ public  void recreateActivity(){
                 Intent search = new Intent(getApplicationContext(), SearchActivity.class);
                 startActivity(search);
                 break;
-            case R.id.app_bar_switch:
+            case R.id.theme:
                 SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
                 final SharedPreferences.Editor editor = pref.edit();
                 backgroundColor = pref.getInt("backgroundColor", 0);
                 constraint.setBackgroundColor(backgroundColor);
-
-                switch_theme.setOnCheckedChangeListener((compoundButton, b) -> {
-                    if (switch_theme.isChecked()) {
-                           backgroundColor = getResources().getColor(R.color.black);
-                        constraint.setBackgroundColor(backgroundColor);
-                    } else {
-                           backgroundColor = getResources().getColor(R.color.colorWhite);
-                        constraint.setBackgroundColor(backgroundColor);
-
-                    }
-                    editor.putInt("backgroundColor", backgroundColor);
-                    editor.commit();
-                });
+                backgroundColor = getResources().getColor(R.color.black);
+                constraint.setBackgroundColor(backgroundColor);
+                editor.putInt("backgroundColor", backgroundColor);
+                editor.apply();
                 break;
 
 

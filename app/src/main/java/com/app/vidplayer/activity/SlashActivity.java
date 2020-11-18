@@ -29,7 +29,7 @@ public class SlashActivity extends AppCompatActivity {
         prefManager = new PrefManager(this);
         if (!prefManager.isFirstTimeLaunch()) {
             launchHomeScreen();
-            finish();
+              finish();
         }
         AppCompatImageView imageView = (AppCompatImageView) findViewById(R.id.img);
         progressBar = (ProgressBar) findViewById(R.id.progress);
